@@ -4,7 +4,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class SomeService {
-	public void doSomeThing() {
+	public String doSomeThing() {
 		System.out.println("SomeService.doSomeThing() - doin' very important stuff...");
+		return "live long and prosper";
 	}
 }
